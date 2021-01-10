@@ -1,2 +1,8 @@
-# Python-Programming-Team-Notes
-This repository is python library for Coding Test.
+## Python-Programming-Team-Notes
+- This repository is python library for Coding Test.
+
+## Contents
+
+### Greedy
+
+### Searching
