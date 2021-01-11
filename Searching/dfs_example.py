@@ -1,9 +1,8 @@
 # DFS
 def dfs(graph, v, visited):
     visited[v] = True
-    # print(v, end = ' ')
+    print(v, end = ' ')
     for i in graph[v]:
-        print(i)
         if not visited[i]:
             dfs(graph, i, visited)
 
@@ -22,3 +21,8 @@ graph = [
 visited = [False] * 9
 
 dfs(graph, 1, visited)
+
+'''
+[output]
+1 2 7 6 8 3 4 5 
+'''

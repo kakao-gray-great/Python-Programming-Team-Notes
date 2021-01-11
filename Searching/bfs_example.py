@@ -27,3 +27,8 @@ graph = [
 visited = [False] * 9
 
 bfs(graph, 1, visited)
+
+'''
+[output]
+1 2 3 8 7 4 5 6 
+'''
